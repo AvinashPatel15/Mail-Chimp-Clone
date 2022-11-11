@@ -7,7 +7,7 @@ import { FiSearch } from 'react-icons/fi';
 
 const Navbar = () => {
     return (
-        <Flex minWidth='max-content' alignItems='center' bg={'white'} position="sticky" top={0} p={5} justifyContent='space-between'>
+        <Flex minWidth='max-content' alignItems='center' bg={'white'} position="sticky" top={0} p={5} justifyContent='space-between' zIndex={100}>
             <Box p='2' display={{ base: 'none', '2xl': 'flex', xl: 'flex', lg: 'flex', md: 'none', sm: 'none' }} gap='50px' >
                 <Text cursor={'pointer'} _hover={{ color: 'teal', textDecoration: 'underline' }} fontWeight="600">Products</Text>
                 <Text cursor={'pointer'} _hover={{ color: 'teal', textDecoration: 'underline' }} fontWeight="600">Resources</Text>
