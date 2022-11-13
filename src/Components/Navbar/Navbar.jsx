@@ -46,7 +46,7 @@ const Navbar = () => {
             </Box>
             <Box display='flex' alignItems='center' gap='30px'>
                 <Box display={{ base: 'none', '2xl': 'flex', xl: 'flex', lg: 'none', md: 'none', sm: 'none' }} flexDirection={'column'} _hover={{ color: 'teal', textDecoration: 'underline' }} cursor={'pointer'}>
-                    <Text>Sales:</Text>
+                    <Text textAlign={'end'}>Sales:</Text>
                     <Text>+1 (800) 315-5939</Text>
                 </Box>
                 <Box display={{ base: 'none', '2xl': 'flex', xl: 'flex', lg: 'none', md: 'none', sm: 'none' }} flexDirection={'row'} gap={3}>

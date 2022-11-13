@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Heading, Text, Button, Image, AspectRatio, UnorderedList, ListItem, ListIcon } from '@chakra-ui/react';
-import { GiCheckMark, GiTireIronCross } from 'react-icons/gi'
+import { GiCheckMark, GiTireIronCross } from 'react-icons/gi';
+import { FaAngleRight } from 'react-icons/fa';
 
 const HomePage = () => {
     return (
@@ -258,6 +259,188 @@ const HomePage = () => {
                     <Box w={'100%'} m={'auto'} textAlign={'center'}>
                         <Button border={'1.60px solid black'} fontSize={'14px'} borderRadius={'2em'} px={'24px'} py={'22px'} bg={'#ffe01b'} _hover={{ bg: '#ffe01b', boxShadow: '0px 6px 0px -2px rgba(0,0,0,1)', transform: 'translateY(0)', transition: 'transform .3s cubic-bezier(.5,2.5,.7,.7),box-shadow .3s cubic-bezier(.5,2.5,.7,.7)' }} cursor={'pointer'}>See all plan details</Button>
                     </Box>
+                </Box>
+            </Box>
+
+            {/* Section 5 */}
+
+            <Box w={'100%'} py={{ base: '2rem', sm: '2rem', md: '2rem', lg: '2rem', xl: '2rem', '2xl': '2rem' }}>
+                <Box w={{ base: '90%', sm: '80%', md: '70%', lg: '60%', xl: '50%', '2xl': '50%' }} m={'auto'}>
+                    <Heading fontFamily={'Means Web,Georgia,Times,Times New Roman,serif'} fontSize={{ base: '1.5rem', sm: '1.6rem', md: '2rem', lg: '2.3rem', xl: '2.5rem', '2xl': '2.5rem' }} lineHeight={1} color={'#241c15'} letterSpacing={'-.03125rem'} textAlign={'center'}>Generate up to 4x more orders* with Customer Journey Builder automations</Heading>
+                </Box>
+            </Box>
+
+            <Box w={'100%'}>
+                <Box display={'grid'} gridTemplateRows={'auto'} gridTemplateColumns={{ base: 'repeat(1,1fr)', sm: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)', xl: 'repeat(2,1fr)', '2xl': 'repeat(2,1fr)' }}>
+                    <Box px={{ base: '3rem', sm: '3rem', md: '5rem', lg: '6rem', xl: '7rem', '2xl': '8rem' }} py={{ base: '2rem', sm: '2rem', md: '3rem', lg: '4rem', xl: '5rem', '2xl': '5rem' }}>
+                        <Heading as={'h3'} mb={'0.5rem'} fontWeight={'400'} fontSize={'2rem'} lineHeight={1.25} color={'#241c15'} letterSpacing={0}>Convert more customers at scale</Heading>
+                        <Box fontSize={'1.25rem'} lineHeight={1.4} color={'#241c15'} fontWeight={'400'} letterSpacing={0}>
+                            <Text>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</Text>
+                        </Box>
+                        <Box mt={'2.5rem'}>
+                            <Button border={'1.60px solid black'} fontSize={'14px'} borderRadius={'2em'} px={'24px'} py={'22px'} bg={'#ffe01b'} _hover={{ bg: '#ffe01b', boxShadow: '0px 6px 0px -2px rgba(0,0,0,1)', transform: 'translateY(0)', transition: 'transform .3s cubic-bezier(.5,2.5,.7,.7),box-shadow .3s cubic-bezier(.5,2.5,.7,.7)' }} cursor={'pointer'}>Learn More</Button>
+                        </Box>
+                    </Box>
+
+                    <Box px={{ base: '3rem', sm: '3rem', md: '5rem', lg: '6rem', xl: '7rem', '2xl': '8rem' }} py={{ base: '2rem', sm: '2rem', md: '3rem', lg: '4rem', xl: '5rem', '2xl': '5rem' }}>
+                        <Heading as={'h3'} mb={'0.5rem'} fontWeight={'400'} fontSize={'2rem'} lineHeight={1.25} color={'#241c15'} letterSpacing={0}>Discover new ways to automate</Heading>
+                        <Box fontSize={'1.25rem'} lineHeight={1.4} color={'#241c15'} fontWeight={'400'} letterSpacing={0}>
+                            <Text>Get a head start with pre-built journeys that help you cross-sell your products, recover abandoned carts, re-engage existing customers.</Text>
+                        </Box>
+                        <Box mt={'2.5rem'}>
+                            <Button border={'1.60px solid black'} fontSize={'14px'} borderRadius={'2em'} px={'24px'} py={'22px'} bg={'#ffe01b'} _hover={{ bg: '#ffe01b', boxShadow: '0px 6px 0px -2px rgba(0,0,0,1)', transform: 'translateY(0)', transition: 'transform .3s cubic-bezier(.5,2.5,.7,.7),box-shadow .3s cubic-bezier(.5,2.5,.7,.7)' }} cursor={'pointer'}>Learn More</Button>
+                        </Box>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* Section 6 */}
+
+            <Box w={'100%'} py={{ base: '2rem', sm: '2rem', md: '2rem', lg: '2rem', xl: '2rem', '2xl': '2rem' }}>
+                <Box w={{ base: '90%', sm: '80%', md: '70%', lg: '60%', xl: '50%', '2xl': '50%' }} m={'auto'}>
+                    <Heading fontFamily={'Means Web,Georgia,Times,Times New Roman,serif'} fontSize={{ base: '1.5rem', sm: '1.6rem', md: '2rem', lg: '2.3rem', xl: '2.5rem', '2xl': '2.5rem' }} lineHeight={1} color={'#241c15'} letterSpacing={'-.03125rem'} textAlign={'center'}>Get up to 88% more revenue* with our Customer Lifetime Value and Likelihood to Purchase segments</Heading>
+                </Box>
+            </Box>
+
+            <Box w={'100%'}>
+                <Box display={'grid'} gridTemplateRows={'auto'} gridTemplateColumns={{ base: 'repeat(1,1fr)', sm: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)', xl: 'repeat(2,1fr)', '2xl': 'repeat(2,1fr)' }}>
+                    <Box px={{ base: '3rem', sm: '3rem', md: '5rem', lg: '6rem', xl: '7rem', '2xl': '8rem' }} py={{ base: '2rem', sm: '2rem', md: '3rem', lg: '4rem', xl: '5rem', '2xl': '5rem' }}>
+                        <Heading as={'h3'} mb={'0.5rem'} fontWeight={'400'} fontSize={'2rem'} lineHeight={1.25} color={'#241c15'} letterSpacing={0}>Predict who’s likely to buy again</Heading>
+                        <Box fontSize={'1.25rem'} lineHeight={1.4} color={'#241c15'} fontWeight={'400'} letterSpacing={0}>
+                            <Text>Create segments of customers based on their lifetime value and likelihood to purchase.</Text>
+                        </Box>
+                        <Box mt={'2.5rem'}>
+                            <Button border={'1.60px solid black'} fontSize={'14px'} borderRadius={'2em'} px={'24px'} py={'22px'} bg={'#ffe01b'} _hover={{ bg: '#ffe01b', boxShadow: '0px 6px 0px -2px rgba(0,0,0,1)', transform: 'translateY(0)', transition: 'transform .3s cubic-bezier(.5,2.5,.7,.7),box-shadow .3s cubic-bezier(.5,2.5,.7,.7)' }} cursor={'pointer'}>Learn More</Button>
+                        </Box>
+                    </Box>
+
+                    <Box px={{ base: '3rem', sm: '3rem', md: '5rem', lg: '6rem', xl: '7rem', '2xl': '8rem' }} py={{ base: '2rem', sm: '2rem', md: '3rem', lg: '4rem', xl: '5rem', '2xl': '5rem' }}>
+                        <Heading as={'h3'} mb={'0.5rem'} fontWeight={'400'} fontSize={'2rem'} lineHeight={1.25} color={'#241c15'} letterSpacing={0}>Build customers for life</Heading>
+                        <Box fontSize={'1.25rem'} lineHeight={1.4} color={'#241c15'} fontWeight={'400'} letterSpacing={0}>
+                            <Text>Use our intelligent predictions to tighten your targeting strategy, strengthen customer relationships.</Text>
+                        </Box>
+                        <Box mt={'2.5rem'}>
+                            <Button border={'1.60px solid black'} fontSize={'14px'} borderRadius={'2em'} px={'24px'} py={'22px'} bg={'#ffe01b'} _hover={{ bg: '#ffe01b', boxShadow: '0px 6px 0px -2px rgba(0,0,0,1)', transform: 'translateY(0)', transition: 'transform .3s cubic-bezier(.5,2.5,.7,.7),box-shadow .3s cubic-bezier(.5,2.5,.7,.7)' }} cursor={'pointer'}>Learn More</Button>
+                        </Box>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* Section 7 */}
+
+            <Box w={'100%'} mt={'10px'}>
+                <Box w={'85%'} m={'auto'}>
+                    <Box pb={'2rem'} w={{ base: '90%', sm: '90%', md: '70%', lg: '60%', xl: '40%', '2xl': '40%' }} mb={'10px'}>
+                        <Heading as={'h2'} fontWeight={'500'} >Bring in more data, drive more growth with our integrations</Heading>
+                    </Box>
+                    <Box display={'grid'} gridTemplateRows={'auto'} gridTemplateColumns={{ base: 'repeat(1,1fr)', sm: 'repeat(1,1fr)', md: 'repeat(2,1fr)', lg: 'repeat(3,1fr)', xl: 'repeat(3,1fr)', '2xl': 'repeat(3,1fr)' }}>
+                        <Box display={'flex'} p={'20px'} columnGap={'20px'} _hover={{ bg: '#F6F6F4' }} cursor={'pointer'}>
+                            <Box>
+                                <Image src='https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&fm=webp&q=80' maxWidth={'7rem'} h={'auto'} />
+                            </Box>
+                            <Box m={'auto'}>
+                                <Heading as={'h3'} textAlign={'start'} p={['0.25rem', 0]} fontWeight={'500'} fontSize={'1rem'} lineHeight={1.75} color={'#241c15'}>Canva</Heading>
+                                <Text fontSize={'0.8125rem'} lineHeight={1.52846} color={'#241c15'} fontWeight={'400'}>Create compelling visuals for your marketing.</Text>
+                            </Box>
+                        </Box>
+
+                        <Box display={'flex'} p={'20px'} columnGap={'20px'} _hover={{ bg: '#F6F6F4' }} cursor={'pointer'}>
+                            <Box>
+                                <Image src='https://eep.io/images/yzco4xsimv0y/51oq4AakIqo8fATlHgqHK0/02a750b1c1a16745296dca6fa7cb830c/Salesforce__1_.jpg?w=196&fm=webp&q=80' maxWidth={'7rem'} h={'auto'} />
+                            </Box>
+                            <Box m={'auto'}>
+                                <Heading as={'h3'} textAlign={'start'} p={['0.25rem', 0]} fontWeight={'500'} fontSize={'1rem'} lineHeight={1.75} color={'#241c15'}>Mailchimp for Salesforce</Heading>
+                                <Text fontSize={'0.8125rem'} lineHeight={1.52846} color={'#241c15'} fontWeight={'400'}>Sync your Mailchimp subscribers and Salesforce® leads across platforms.</Text>
+                            </Box>
+                        </Box>
+
+                        <Box display={'flex'} p={'20px'} columnGap={'20px'} _hover={{ bg: '#F6F6F4' }} cursor={'pointer'}>
+                            <Box>
+                                <Image src='https://eep.io/images/yzco4xsimv0y/67trWJLKtKcvrqlKYSlskE/696ad499e0cc60aa7392521a6a7cfd90/Instagram__1_.jpg?w=196&fm=webp&q=80' maxWidth={'7rem'} h={'auto'} />
+                            </Box>
+                            <Box m={'auto'}>
+                                <Heading as={'h3'} textAlign={'start'} p={['0.25rem', 0]} fontWeight={'500'} fontSize={'1rem'} lineHeight={1.75} color={'#241c15'}>Instagram</Heading>
+                                <Text fontSize={'0.8125rem'} lineHeight={1.52846} color={'#241c15'} fontWeight={'400'}>Promote and share your Instagram posts in email campaigns.</Text>
+                            </Box>
+                        </Box>
+
+                        <Box display={'flex'} p={'20px'} columnGap={'20px'} _hover={{ bg: '#F6F6F4' }} cursor={'pointer'}>
+                            <Box>
+                                <Image src='https://eep.io/images/yzco4xsimv0y/44dW9Z4hibyDYi0qggfets/b01884985e996ffb5dc133556b92bb7a/Shopify__1_.jpg?w=196&fm=webp&q=80' maxWidth={'7rem'} h={'auto'} />
+                            </Box>
+                            <Box m={'auto'}>
+                                <Heading as={'h3'} textAlign={'start'} p={['0.25rem', 0]} fontWeight={'500'} fontSize={'1rem'} lineHeight={1.75} color={'#241c15'}>Shopify</Heading>
+                                <Text fontSize={'0.8125rem'} lineHeight={1.52846} color={'#241c15'} fontWeight={'400'}>Create compelling visuals for your marketing.</Text>
+                            </Box>
+                        </Box>
+
+                        <Box display={'flex'} p={'20px'} columnGap={'20px'} _hover={{ bg: '#F6F6F4' }} cursor={'pointer'}>
+                            <Box>
+                                <Image src='https://eep.io/images/yzco4xsimv0y/7mpZ7UZrdzk2BmWX1OnRvb/5e610ecd21eeb25d0b82b098ce424e34/Google_Analytics2.jpg?w=196&fm=webp&q=80' maxWidth={'7rem'} h={'auto'} />
+                            </Box>
+                            <Box m={'auto'}>
+                                <Heading as={'h3'} textAlign={'start'} p={['0.25rem', 0]} fontWeight={'500'} fontSize={'1rem'} lineHeight={1.75} color={'#241c15'}>Google Analytics</Heading>
+                                <Text fontSize={'0.8125rem'} lineHeight={1.52846} color={'#241c15'} fontWeight={'400'}>Unlock powerful insights with campaign, website, or landing page data.</Text>
+                            </Box>
+                        </Box>
+
+                        <Box display={'flex'} p={'20px'} columnGap={'20px'} _hover={{ bg: '#F6F6F4' }} cursor={'pointer'}>
+                            <Box>
+                                <Image src='https://eep.io/images/yzco4xsimv0y/2uruOq31Y1FKdghFWn5zMg/8a35f3f9e463ba34038f3c3f16ccb635/WooCommerce.jpg?w=196&fm=webp&q=80' maxWidth={'7rem'} h={'auto'} />
+                            </Box>
+                            <Box m={'auto'}>
+                                <Heading as={'h3'} textAlign={'start'} p={['0.25rem', 0]} fontWeight={'500'} fontSize={'1rem'} lineHeight={1.75} color={'#241c15'}>WooCommerce</Heading>
+                                <Text fontSize={'0.8125rem'} lineHeight={1.52846} color={'#241c15'} fontWeight={'400'}>Power your ecommerce store with smart marketing features.</Text>
+                            </Box>
+                        </Box>
+
+                        <Box display={'flex'} p={'20px'} columnGap={'20px'} _hover={{ bg: '#F6F6F4' }} cursor={'pointer'}>
+                            <Box>
+                                <Image src='https://eep.io/images/yzco4xsimv0y/uZVnrVt3DO1G4Ec5G4pvs/e6c9d3c2613827f7dd238f1c5e0b02d9/Quickbooks.jpg?w=196&fm=webp&q=80' maxWidth={'7rem'} h={'auto'} />
+                            </Box>
+                            <Box m={'auto'}>
+                                <Heading as={'h3'} textAlign={'start'} p={['0.25rem', 0]} fontWeight={'500'} fontSize={'1rem'} lineHeight={1.75} color={'#241c15'}>QuickBooks Online</Heading>
+                                <Text fontSize={'0.8125rem'} lineHeight={1.52846} color={'#241c15'} fontWeight={'400'}>Bring together your marketing tools and invoice data.</Text>
+                            </Box>
+                        </Box>
+
+                        <Box display={'flex'} p={'20px'} columnGap={'20px'} _hover={{ bg: '#F6F6F4' }} cursor={'pointer'}>
+                            <Box>
+                                <Image src='https://eep.io/images/yzco4xsimv0y/2klSrOoLZKmLuGKZjKT9o3/ca400f60c2f3673f3ab9b52f4d03360d/Squarespace.jpg?w=196&fm=webp&q=80' maxWidth={'7rem'} h={'auto'} />
+                            </Box>
+                            <Box m={'auto'}>
+                                <Heading as={'h3'} textAlign={'start'} p={['0.25rem', 0]} fontWeight={'500'} fontSize={'1rem'} lineHeight={1.75} color={'#241c15'}>Squarespace Commerce</Heading>
+                                <Text fontSize={'0.8125rem'} lineHeight={1.52846} color={'#241c15'} fontWeight={'400'}>Market your ecommerce business and drive sales.</Text>
+                            </Box>
+                        </Box>
+
+                        <Box display={'flex'} p={'20px'} columnGap={'20px'} _hover={{ bg: '#F6F6F4' }} cursor={'pointer'}>
+                            <Box>
+                                <Image src='https://eep.io/images/yzco4xsimv0y/26deBkGp3A5Pj7suZ9oV7V/858e8a4603707166988a3282bca7e29b/Zapier.jpg?w=196&fm=webp&q=80' maxWidth={'7rem'} h={'auto'} />
+                            </Box>
+                            <Box m={'auto'}>
+                                <Heading as={'h3'} textAlign={'start'} p={['0.25rem', 0]} fontWeight={'500'} fontSize={'1rem'} lineHeight={1.75} color={'#241c15'}>Zapier</Heading>
+                                <Text fontSize={'0.8125rem'} lineHeight={1.52846} color={'#241c15'} fontWeight={'400'}>Automatically pass data between web services without a single line of code.</Text>
+                            </Box>
+                        </Box>
+                    </Box>
+
+                    <Box mt={'40px'} mb={'80px'}>
+                        <Button border={'1.60px solid black'} fontSize={'14px'} borderRadius={'2em'} px={'24px'} py={'22px'} bg={'#ffe01b'} _hover={{ bg: '#ffe01b', boxShadow: '0px 6px 0px -2px rgba(0,0,0,1)', transform: 'translateY(0)', transition: 'transform .3s cubic-bezier(.5,2.5,.7,.7),box-shadow .3s cubic-bezier(.5,2.5,.7,.7)' }} cursor={'pointer'}>View all 300+ integrations</Button>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* Section 8 */}
+
+            <Box w={'100%'} bg={'#f6f6f4'} py={'2.5rem'}>
+                <Box w={'85%'} m={'auto'} fontSize={'0.6875rem'} lineHeight={1.45455} color={'#241c15'} fontWeight={'400'} letterSpacing={0}>
+                    <Text><strong fontWeight={'500'}>*Disclaimers</strong></Text>
+                    <Text>1. Mailchimp is the #1 email marketing and automation brand based on competitor brands' publicly available data on worldwide numbers of customers in 2021 / 2022.</Text>
+                    <Text>2. Generate up to 4X more orders with Customer Journey Builder automations based on orders generated through user's connected stores with automations versus when they used bulk emails.</Text>
+                    <Text>3. Get up to 88% more revenue based on emails sent with predicted segments against non-predictive segmented emails for users with connected stores only. Standard or Premium Plans only.</Text>
+                    <Text mb={'10px'}>Availability of features and functionality varies by plan type. For details, view plans and pricing.</Text>
+                    <Text>*Valid only for account holders who: (1) have a Free plan account associated with in-app, web or email promo message and (2) upgrade to [Standard] plan and enter valid payment information through the “Redeem Offer” button. If you receive the offer in-app, you are no longer eligible once you dismiss the in-app message unless you snooze the offer, in which case it will be offered again 24+ hours later. Offer ends at 11:59 PM ET on 11/14/2022. Depending on how many contacts you have when you redeem, you will be placed into different [Standard] plan tiers with different monthly send limits. Offset includes a 100% discount to your recurring monthly plan charges for first 2 monthly bills on promo plan, not including add-on fees or one-time fees. You will lose the offer if you change your plan type, pause, or cancel your account. One offer redemption per Mailchimp account. <strong>Once discount ends, you will be automatically charged the [Standard] plan rate currently in effect without the discount based on your contacts and email sends, which will automatically renew monthly. See full offer terms here.</strong></Text>
                 </Box>
             </Box>
         </>
