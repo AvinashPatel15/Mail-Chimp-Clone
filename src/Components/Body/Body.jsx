@@ -2,8 +2,9 @@ import React from 'react';
 import { Box, Heading, Text, Button, Image, AspectRatio, UnorderedList, ListItem, ListIcon } from '@chakra-ui/react';
 import { GiCheckMark, GiTireIronCross } from 'react-icons/gi';
 import { FaAngleRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
-const HomePage = () => {
+const Body = () => {
     return (
         <>
             {/* Section 1 */}
@@ -12,7 +13,7 @@ const HomePage = () => {
                 <Box w={{ base: '85%', sm: '85%', md: '85%', lg: '85%', xl: '60%', '2xl': '60%' }} m={'auto'} textAlign={'center!important'}>
                     <Heading as='h1' fontWeight={'300'} fontFamily={'Means Web,Georgia,Times,Times New Roman,serif'} color={'#241c15'} letterSpacing={'-.0625rem'} fontSize={{ base: '2.5rem', sm: '2.5rem', md: '2.5rem', lg: '2.5rem', xl: '3rem', '2xl': '3rem' }} lineHeight={{ base: '35px', sm: '35px', md: '35px', lg: '35px', xl: '40px', '2xl': '40px' }} marginBottom={'10px'}>Turn Emails into Revenue</Heading>
                     <Text fontSize={{ base: '1.125rem', sm: '1.125rem', md: '1.125rem', lg: '1.5rem', xl: '1.5rem', '2xl': '1.5rem' }} marginBottom={'20px'}>Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks, and sales.</Text>
-                    <Button border={'1.60px solid black'} fontSize={'14px'} borderRadius={'2em'} px={'24px'} py={'22px'} bg={'#ffe01b'} _hover={{ bg: '#ffe01b', boxShadow: '0px 6px 0px -2px rgba(0,0,0,1)', transform: 'translateY(0)', transition: 'transform .3s cubic-bezier(.5,2.5,.7,.7),box-shadow .3s cubic-bezier(.5,2.5,.7,.7)' }} cursor={'pointer'}>Sign Up</Button>
+                   <Link to={'/signup'}><Button border={'1.60px solid black'} fontSize={'14px'} borderRadius={'2em'} px={'24px'} py={'22px'} bg={'#ffe01b'} _hover={{ bg: '#ffe01b', boxShadow: '0px 6px 0px -2px rgba(0,0,0,1)', transform: 'translateY(0)', transition: 'transform .3s cubic-bezier(.5,2.5,.7,.7),box-shadow .3s cubic-bezier(.5,2.5,.7,.7)' }} cursor={'pointer'}>Sign Up</Button></Link>
                 </Box>
             </Box>
 
@@ -447,6 +448,6 @@ const HomePage = () => {
     )
 }
 
-export default HomePage;
+export default Body;
 
 // {base:'',sm:'', md:'',lg:'', xl:'','2xl':''}
